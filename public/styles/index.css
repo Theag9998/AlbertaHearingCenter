@@ -1,0 +1,25 @@
+/* General */
+h1, h2 {
+    font-family: 'Merriweather', serif;  
+}
+h3, h4, h5, h6, p {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+/* Header */
+.header-container {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.header-menu {
+display: flex;
+width: 20%;
+justify-content: space-between;
+}
+
+
+/* Hero Image */
+.hero-image {
+background-image: url(../images/pexels-brett-sayles-1767665.jpg);
+}
