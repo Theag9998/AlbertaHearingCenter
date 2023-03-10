@@ -56,3 +56,38 @@ background-size: cover;
     font-size: 25px;
     border-radius: 5px;
 }
+
+/* Testimonials */
+.testimonials {
+    background-color: #1b2a1e
+    ;
+    padding: 50%
+}
+
+/* Footer */
+footer {
+    position: fixed;
+    bottom: 0;
+    width:100%;
+}
+footer ul {
+    padding:0;
+  list-style:none;
+  text-align:center;
+}
+footer ul a {
+    opacity:0.8;
+}
+footer ul a:hover {
+    opacity:1;
+  }
+footer li {
+    display: inline;
+    padding: 0 2rem;
+}
+footer hr {
+    width: 90%;
+}
+footer p {
+    text-align:center;
+}
