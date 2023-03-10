@@ -1,23 +1,34 @@
 /* General */
+body {
+    display: block;
+    margin: 0;
+}
 h1, h2 {
     font-family: 'Merriweather', serif;  
 }
 h3, h4, h5, h6, p, a {
     font-family: 'Barlow Semi Condensed', sans-serif;
 }
-
+a {
+    text-decoration: none;
+    color: black;
+}
 /* Header */
 .header-container {
-    padding: 1rem;
+    padding: 2% 3%;
     display: flex;
     justify-content: space-between;
 }
+.business-title {
+    width: 25%;
+}
 .header-menu {
 display: flex;
-width: 20%;
 justify-content: space-between;
 }
-
+.header-menu h3 {
+    margin: 1em 1rem;
+}
 
 /* Hero Image */
 .hero-image {
